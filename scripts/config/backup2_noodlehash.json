@@ -1,0 +1,13 @@
+{
+  "testbranch" : {
+    "testval1" : "abc",
+    "testval2" : "def",
+    "testval3" : "ghi",
+    "testval4" : "stu",
+   "subbranch" : {
+      "sbtestval1" : "jkl",
+      "sbtestval2" : "mno",
+      "sbtestval3" : "pqr"
+    }
+  }
+}
