@@ -1,0 +1,20 @@
+#queue_directory = /var/spool/postfix
+command_directory = /usr/sbin
+daemon_directory = /usr/lib/postfix
+data_directory = /var/lib/postfix
+#mail_owner = postfix
+#default_privs = nobody
+myhostname = mail.decidz.com
+mydomain = decidz.com
+myorigin = $mydomain
+inet_interfaces = all
+mydestination = decidz.com, dcz.io
+virtual_alias_maps = hash:/var/www/decidz/config/postfix_virtual
+message_size_limit = 0
+mynetworks = 127.0.0.0/8
+relay_domains = $mydestination
+smtpd_banner = $myhostname ESMTP
+debugger_command =
+         PATH=/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin
+         ddd $daemon_directory/$process_name $process_id & sleep 5
+inet_protocols = ipv4

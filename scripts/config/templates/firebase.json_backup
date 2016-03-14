@@ -1,0 +1,31 @@
+{
+  "firebase": "noodlesoup",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ],
+  "headers": [ {
+    "source" : "/app",
+    "headers" : [ {
+      "key" : "Cache-Control",
+      "value" : "max-age=300"
+    } ]
+  } ],
+  "headers": [ {
+    "source" : "/index.html",
+    "headers" : [ {
+      "key" : "Cache-Control",
+      "value" : "max-age=300"
+    } ]
+  } ],
+  "headers": [ {
+    "source" : "**/*.@(jpg|jpeg|gif|png|css|html|js)",
+    "headers" : [ {
+      "key" : "Cache-Control",
+      "value" : "max-age=1800"
+    } ]
+  } ]
+}
+

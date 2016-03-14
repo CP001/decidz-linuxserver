@@ -5,6 +5,12 @@
     "firebase.json",
     "**/.*",
     "**/node_modules/**"
-  ]
+  ],
+  "headers": [ {
+    "source" : "/apple-app-site-association",
+	"headers" : [ {
+	  "key" : "X-Content-Type-Options",
+	  "value" : "application/pkcs7-mime"
+    } ]
+  } ]  
 }
-

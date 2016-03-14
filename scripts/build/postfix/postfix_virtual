@@ -1,0 +1,31 @@
+# decidz addresses
+tom@decidz.com snow7374@gmail.com
+craig@decidz.com cparker443@gmail.com
+hilde@decidz.com frydnes@gmail.com
+jamie@decidz.com jamiemchale@gmail.com
+bon@decidz.com bonamy.grimes@gmail.com
+
+# dist lists
+team@decidz.com cparker443@gmail.com, snow7374@gmail.com, jamiemchale@gmail.com, bonamy.grimes@gmail.com
+support@decidz.com cparker443@gmail.com, snow7374@gmail.com, jamiemchale@gmail.com
+hello@decidz.com cparker443@gmail.com, snow7374@gmail.com, jamiemchale@gmail.com
+devops@decidz.com cparker443@gmail.com, snow7374@gmail.com, frydnes@gmail.com, jamiemchale@gmail.com
+feedback@decidz.com cparker443@gmail.com, snow7374@gmail.com, frydnes@gmail.com, jamiemchale@gmail.com
+
+# test email addresses
+test1@decidz.com frydnes@gmail.com
+test2@decidz.com frydnes@gmail.com
+test3@decidz.com frydnes@gmail.com
+test4@decidz.com frydnes@gmail.com
+test5@decidz.com frydnes@gmail.com
+test6@decidz.com frydnes@gmail.com
+test7@decidz.com frydnes@gmail.com
+test8@decidz.com frydnes@gmail.com
+test9@decidz.com frydnes@gmail.com
+test10@decidz.com frydnes@gmail.com
+
+# decidz.com catchall rule
+@decidz.com cparker443@gmail.com, snow7374@gmail.com
+
+# dcz.io catchall rule
+@dcz.io cparker443@gmail.com, snow7374@gmail.com

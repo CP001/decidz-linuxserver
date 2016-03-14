@@ -1,0 +1,1212 @@
+{
+  "decidz_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-webapp",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-webapp",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/",
+	"config_file" : {
+		"template_name" : "mainwebsite_template.js",
+		"destination_name" : "/var/www/decidz/gitrepo/decidz-webapp/configFile.json",
+		"replacements" : {
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"decidz_apirooturl" : "http://api.int.decidz.com",
+			"segment_api_key" : "F8LKY9dVE2OHbftx11ey038R9mzEOb1X",
+			"sentry_api_url" : "https://1d6139f190a34e4a830e5d02e38b86c3@app.getsentry.com/53287",
+			"major_release_version" : "mwsvar_major_release_version",
+			"minor_release_version" : "mwsvar_minor_release_version",
+			"patch_release_version" : "mwsvar_patch_release_version",
+			"code_name" : "mwsvar_code_name",
+			"auth0_key": "jndF70N2P88hXDF1RQrx267X43JpIA0I",
+			"auth0_domain": "decidzint.auth0.com"
+		}
+	},
+	"type" : "mainwebsite",
+	"deploy_button_colour" : "green",
+	"node_website_root" : "/var/www/decidz/websites/int/www",
+	"description" : "int main website",
+	"gulp_execute_folder" : "/",
+	"npm_install_folder" : "/var/www/decidz/gitrepo/decidz-webapp/"
+  },
+  "decidz_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-webapp",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-webapp",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/",
+	"config_file" : {
+		"template_name" : "mainwebsite_template.js",
+		"destination_name" : "/var/www/decidz/gitrepo/decidz-webapp/configFile.json",
+		"replacements" : {
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"decidz_apirooturl" : "http://api.staging.decidz.com",
+			"segment_api_key" : "F8LKY9dVE2OHbftx11ey038R9mzEOb1X",
+			"sentry_api_url" : "https://1d6139f190a34e4a830e5d02e38b86c3@app.getsentry.com/53287",
+			"major_release_version" : "mwsvar_major_release_version",
+			"minor_release_version" : "mwsvar_minor_release_version",
+			"patch_release_version" : "mwsvar_patch_release_version",
+			"code_name" : "mwsvar_code_name",
+			"auth0_key": "jndF70N2P88hXDF1RQrx267X43JpIA0I",
+			"auth0_domain": "decidzint.auth0.com"
+		}
+	},
+	"type" : "mainwebsite",
+	"deploy_button_colour" : "green",
+	"node_website_root" : "/var/www/decidz/websites/staging/www",
+	"description" : "staging main website",
+	"gulp_execute_folder" : "/",
+	"npm_install_folder" : "/var/www/decidz/gitrepo/decidz-webapp/"
+  },
+  "decidz_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-webapp",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-webapp",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/",
+	"config_file" : {
+		"template_name" : "mainwebsite_template.js",
+		"destination_name" : "/var/www/decidz/gitrepo/decidz-webapp/configFile.json",
+		"replacements" : {
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"decidz_apirooturl" : "https://api.decidz.com",
+			"segment_api_key" : "3UEXfpVIFogW14HvHCxDMDgicUIZiB0L",
+			"sentry_api_url" : "https://a0c242863ef642a8b922088efd6edcb9@app.getsentry.com/53286",
+			"major_release_version" : "mwsvar_major_release_version",
+			"minor_release_version" : "mwsvar_minor_release_version",
+			"patch_release_version" : "mwsvar_patch_release_version",
+			"code_name" : "mwsvar_code_name",
+			"auth0_key": "pG9qtKeYlsf5bxsy7eJmb9Jcpt6z0KT5",
+			"auth0_domain": "decidz.auth0.com"
+		}
+	},
+	"type" : "mainwebsite",
+	"deploy_button_colour" : "green",
+	"node_website_root" : "/var/www/decidz/websites/prefirebase/www",
+	"description" : "prod main website",
+	"gulp_execute_folder" : "/",
+	"npm_install_folder" : "/var/www/decidz/gitrepo/decidz-webapp/"
+  },
+  "decidz_azure" : {
+	"type" : "pfbtoazure",
+	"deploy_button_colour" : "red",
+	"description" : "prefirebase to azure"
+  },
+  "dcz_snowden" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/snowden",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/snowden",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/",
+	"type" : "simplewebsite",
+	"deploy_button_colour" : "yellow",
+	"node_website_root" : "/var/www/decidz/websites/snowden/prod/www",
+	"nginx_host_name" : "snowden.decidz.com",
+	"description" : "Snowden"
+  },
+  "pce_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/preconfigured-events/",
+	"config_file" : {
+		"template_name" : "pce_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"firebase_authcode" : "mrFjpvF3nawIhQTLGpQ5RTvfEQcdMIBAm372YCSa",
+			"decidz_app_root" : "http://int.decidz.com/app/#/",
+			"cookie_domain_name" : "int.decidz.com",
+			"node_listen_port" : "3001",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodewebsite",
+	"deploy_button_colour" : "blue",
+	"node_website_root" : "/var/www/decidz/websites/node/pce/int",
+	"nginx_host_name" : "events.int.decidz.com",
+	"description" : "int PCE website",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+  "pce_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"source_folder" : "/preconfigured-events/",
+	"gitrepo_branch" : "selectable",
+	"config_file" : {
+		"template_name" : "pce_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"firebase_authcode" : "d2eIS4pa3hsRQ7UGCsVHegVzX5NxV88SXEQABiwq",
+			"decidz_app_root" : "http://staging.decidz.com/app/#/",
+			"cookie_domain_name" : "staging.decidz.com",
+			"node_listen_port" : "3002",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodewebsite",
+	"deploy_button_colour" : "blue",
+	"node_website_root" : "/var/www/decidz/websites/node/pce/staging",
+	"nginx_host_name" : "events.staging.decidz.com",
+	"description" : "staging PCE website",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+},
+  "pce_production" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/preconfigured-events/",
+	"config_file" : {
+		"template_name" : "pce_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"firebase_authcode" : "PtiomPGXrQI7r9Z1BKTrN01CsyzjbevTGIvjnLZG",
+			"decidz_app_root" : "https://decidz.com/app/#/",
+			"cookie_domain_name" : "decidz.com",
+			"node_listen_port" : "3003",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production"			
+		}
+	},
+	"type" : "nodewebsite",
+	"deploy_button_colour" : "blue",
+	"node_website_root" : "/var/www/decidz/websites/node/pce/prod",
+	"nginx_host_name" : "events.decidz.com",
+	"description" : "prod PCE website",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+  "click_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/link/",
+	"config_file" : {
+		"template_name" : "click_template_constants.js",
+		"destination_name" : "/src/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"firebase_authcode" : "mrFjpvF3nawIhQTLGpQ5RTvfEQcdMIBAm372YCSa",
+			"decidz_app_root" : "http://int.decidz.com/app/#/",
+			"decidz_websiterooturl" : "http://int.decidz.com/",
+			"decidz_apirooturl" : "http://api.int.decidz.com/",
+			"cookie_domain_name" : ".int.decidz.com",
+			"node_listen_port" : "3021",
+			"segment_api_key" : "F8LKY9dVE2OHbftx11ey038R9mzEOb1X",
+			"orient_host" : "79.174.170.130",
+			"orient_port" : "2424",
+			"orient_username" : "root",
+			"orient_password" : "lzsojf4389h439Tg#ytfty",
+			"orient_db" : "Decidz-Int",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development",
+			"twilio_sid" : "ACbbb983f321f1be5a7d68377acfa8419f",
+			"twilio_token" : "6bdf7531032e6cadd9290e40d7f78c70",
+			"auth0_api_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJJNEdIMmtncXVHODlaNTVHeHU3aGREQ1hIY21icXFXVCIsInNjb3BlcyI6eyJ1c2VycyI6eyJhY3Rpb25zIjpbInVwZGF0ZSIsInJlYWQiLCJkZWxldGUiXX0sInVzZXJzX2FwcF9tZXRhZGF0YSI6eyJhY3Rpb25zIjpbInVwZGF0ZSJdfX0sImlhdCI6MTQ1NTEwNjM5OCwianRpIjoiMGJlZmFlMmYwYThiMWUwYjBhY2QwN2VlOTk2OTNjMWMifQ.JfPDiwG2KAHgRdKuhFwYBVAYCZQYju886grkndkLVqA",
+			"auth0_api_url": "https://decidzint.auth0.com/api/v2"
+		}
+	},
+	"type" : "nodewebsite",
+	"deploy_button_colour" : "black",
+	"node_website_root" : "/var/www/decidz/websites/node/click/int",
+	"nginx_host_name" : "click.int.decidz.com",
+	"description" : "int click website",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+  "click_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/link/",
+	"config_file" : {
+		"template_name" : "click_template_constants.js",
+		"destination_name" : "/src/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"firebase_authcode" : "d2eIS4pa3hsRQ7UGCsVHegVzX5NxV88SXEQABiwq",
+			"decidz_app_root" : "http://staging.decidz.com/app/#/",
+			"decidz_websiterooturl" : "http://staging.decidz.com/",
+			"decidz_apirooturl" : "http://api.staging.decidz.com/",
+			"cookie_domain_name" : ".staging.decidz.com",
+			"node_listen_port" : "3022",
+			"segment_api_key" : "F8LKY9dVE2OHbftx11ey038R9mzEOb1X",
+			"orient_host" : "79.174.170.130",
+			"orient_port" : "2424",
+			"orient_username" : "root",
+			"orient_password" : "lzsojf4389h439Tg#ytfty",
+			"orient_db" : "Decidz-Staging",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development",
+			"twilio_sid" : "ACbbb983f321f1be5a7d68377acfa8419f",
+			"twilio_token" : "6bdf7531032e6cadd9290e40d7f78c70",
+			"auth0_api_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJJNEdIMmtncXVHODlaNTVHeHU3aGREQ1hIY21icXFXVCIsInNjb3BlcyI6eyJ1c2VycyI6eyJhY3Rpb25zIjpbInVwZGF0ZSIsInJlYWQiLCJkZWxldGUiXX0sInVzZXJzX2FwcF9tZXRhZGF0YSI6eyJhY3Rpb25zIjpbInVwZGF0ZSJdfX0sImlhdCI6MTQ1NTEwNjM5OCwianRpIjoiMGJlZmFlMmYwYThiMWUwYjBhY2QwN2VlOTk2OTNjMWMifQ.JfPDiwG2KAHgRdKuhFwYBVAYCZQYju886grkndkLVqA",
+			"auth0_api_url": "https://decidzint.auth0.com/api/v2"
+		}
+	},
+	"type" : "nodewebsite",
+	"deploy_button_colour" : "black",
+	"node_website_root" : "/var/www/decidz/websites/node/click/staging",
+	"nginx_host_name" : "click.staging.decidz.com",
+	"description" : "staging click website",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+  "click_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/link/",
+	"config_file" : {
+		"template_name" : "click_template_constants.js",
+		"destination_name" : "/src/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"firebase_authcode" : "PtiomPGXrQI7r9Z1BKTrN01CsyzjbevTGIvjnLZG",
+			"decidz_app_root" : "https://decidz.com/app/#/",
+			"decidz_websiterooturl" : "https://decidz.com/",
+			"decidz_apirooturl" : "https://api.decidz.com/",
+			"cookie_domain_name" : ".decidz.com",
+			"node_listen_port" : "3023",
+			"segment_api_key" : "3UEXfpVIFogW14HvHCxDMDgicUIZiB0L",
+			"orient_host" : "79.174.170.130",
+			"orient_port" : "2424",
+			"orient_username" : "root",
+			"orient_password" : "lzsojf4389h439Tg#ytfty",
+			"orient_db" : "Decidz-Prod",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production",
+			"twilio_sid" : "ACbbb983f321f1be5a7d68377acfa8419f",
+			"twilio_token" : "6bdf7531032e6cadd9290e40d7f78c70",
+			"auth0_api_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJwd0dpanAzeDJHSU8wY0VYbUtEQmlEbXRhZ2RaYnU0YiIsInNjb3BlcyI6eyJ1c2VycyI6eyJhY3Rpb25zIjpbInJlYWQiLCJ1cGRhdGUiLCJkZWxldGUiXX0sInVzZXJzX2FwcF9tZXRhZGF0YSI6eyJhY3Rpb25zIjpbInVwZGF0ZSJdfX0sImlhdCI6MTQ1NTcwMzc5NiwianRpIjoiOWUzYjc5Nzg5MWQ4NGUwYjhjMWQzMGQ2ZDdhOGY0NjMifQ.rRZY2y6lyjqjXF_uoxpiLL4FoocgY8wfj7pVOTGebAY",
+			"auth0_api_url": "https://decidz.auth0.com/api/v2"
+		}
+	},
+	"type" : "nodewebsite",
+	"deploy_button_colour" : "black",
+	"node_website_root" : "/var/www/decidz/websites/node/click/prod",
+	"nginx_host_name" : "click.prod.decidz.com",
+	"description" : "prod click website",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+  "notifications_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/chat-notifications/",
+	"config_file" : {
+		"template_name" : "notifications_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"firebase_authcode" : "mrFjpvF3nawIhQTLGpQ5RTvfEQcdMIBAm372YCSa",
+			"osi_rest_key" : "NGM2ZTM2ZDQtNTc5Yy0xMWU1LTljYjktMGJjZmExYjNjZTFh",
+			"osi_app_id" : "4c6e3652-579c-11e5-9cb8-f7020824cc0f",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "purple",
+	"node_website_root" : "/var/www/decidz/scripts/node/notifications/int",
+	"description" : "int notifications queue",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+  "notifications_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/chat-notifications/",
+	"config_file" : {
+		"template_name" : "notifications_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"firebase_authcode" : "d2eIS4pa3hsRQ7UGCsVHegVzX5NxV88SXEQABiwq",
+			"osi_rest_key" : "NGM2ZTM2ZDQtNTc5Yy0xMWU1LTljYjktMGJjZmExYjNjZTFh",
+			"osi_app_id" : "4c6e3652-579c-11e5-9cb8-f7020824cc0f",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "purple",
+	"node_website_root" : "/var/www/decidz/scripts/node/notifications/staging",
+	"description" : "staging notifications queue",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+  "notifications_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/chat-notifications/",
+	"config_file" : {
+		"template_name" : "notifications_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"firebase_authcode" : "PtiomPGXrQI7r9Z1BKTrN01CsyzjbevTGIvjnLZG",
+			"osi_rest_key" : "Zjc2NzQ0MWUtNTZlNy0xMWU1LWFhZjMtNmJkODE5NTA1MWQy",
+			"osi_app_id" : "f7674388-56e7-11e5-aaf2-33cae765efd6",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "purple",
+	"node_website_root" : "/var/www/decidz/scripts/node/notifications/prod",
+	"description" : "prod notifications queue",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+   "mainqueue_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/queue-join/",
+	"config_file" : {
+		"template_name" : "mainqueue_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"firebase_authcode" : "mrFjpvF3nawIhQTLGpQ5RTvfEQcdMIBAm372YCSa",
+			"decidz_app_root" : "http://int.decidz.com/app/#/",
+			"cookie_domain_name" : "int.decidz.com",
+			"decidz_apirooturl" : "http://api.int.decidz.com",
+			"shorturldomain" : "http://int.dcz.io",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "gray",
+	"node_website_root" : "/var/www/decidz/scripts/node/mainqueue/int",
+	"description" : "int main queue",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+   "mainqueue_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/queue-join/",
+	"config_file" : {
+		"template_name" : "mainqueue_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"firebase_authcode" : "d2eIS4pa3hsRQ7UGCsVHegVzX5NxV88SXEQABiwq",
+			"decidz_app_root" : "http://staging.decidz.com/app/#/",
+			"cookie_domain_name" : "staging.decidz.com",
+			"decidz_apirooturl" : "http://api.staging.decidz.com",
+			"shorturldomain" : "http://staging.dcz.io",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "gray",
+	"node_website_root" : "/var/www/decidz/scripts/node/mainqueue/staging",
+	"description" : "staging main queue",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+   "mainqueue_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/queue-join/",
+	"config_file" : {
+		"template_name" : "mainqueue_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"firebase_authcode" : "PtiomPGXrQI7r9Z1BKTrN01CsyzjbevTGIvjnLZG",
+			"decidz_app_root" : "https://decidz.com/app/#/",
+			"cookie_domain_name" : "decidz.com",
+			"decidz_apirooturl" : "https://api.decidz.com",
+			"shorturldomain" : "https://dcz.io",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production"
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "gray",
+	"node_website_root" : "/var/www/decidz/scripts/node/mainqueue/prod",
+	"description" : "prod main queue",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+  "ngc_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/NGC/",
+	"config_file" : {
+		"template_name" : "ngc_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"firebase_authcode" : "mrFjpvF3nawIhQTLGpQ5RTvfEQcdMIBAm372YCSa",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "green",
+	"node_website_root" : "/var/www/decidz/scripts/node/ngc/int",
+	"description" : "int NGC",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+  "ngc_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/NGC/",
+	"config_file" : {
+		"template_name" : "ngc_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"firebase_authcode" : "d2eIS4pa3hsRQ7UGCsVHegVzX5NxV88SXEQABiwq",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "green",
+	"node_website_root" : "/var/www/decidz/scripts/node/ngc/staging",
+	"description" : "staging NGC",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+  "ngc_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/NGC/",
+	"config_file" : {
+		"template_name" : "ngc_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"firebase_authcode" : "PtiomPGXrQI7r9Z1BKTrN01CsyzjbevTGIvjnLZG",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production"
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "green",
+	"node_website_root" : "/var/www/decidz/scripts/node/ngc/prod",
+	"description" : "prod NGC",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+  "ec_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/email-collections/",
+	"config_file" : {
+		"template_name" : "ec_template_constants.js",
+		"destination_name" : "/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"firebase_authcode" : "mrFjpvF3nawIhQTLGpQ5RTvfEQcdMIBAm372YCSa",
+			"decidz_app_root" : "http://int.decidz.com/app/#/",
+			"decidz_apirooturl" : "http://api.int.decidz.com",
+			"decidz_websiterooturl" : "http://int.decidz.com/",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "yellow",
+	"node_website_root" : "/var/www/decidz/scripts/node/ec/int",
+	"description" : "int EC",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+  "ec_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/email-collections/",
+	"config_file" : {
+		"template_name" : "ec_template_constants.js",
+		"destination_name" : "/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"firebase_authcode" : "d2eIS4pa3hsRQ7UGCsVHegVzX5NxV88SXEQABiwq",
+			"decidz_app_root" : "http://staging.decidz.com/app/#/",
+			"decidz_apirooturl" : "http://api.staging.decidz.com",
+			"decidz_websiterooturl" : "http://staging.decidz.com/",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "yellow",
+	"node_website_root" : "/var/www/decidz/scripts/node/ec/staging",
+	"description" : "staging EC",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+  "ec_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/email-collections/",
+	"config_file" : {
+		"template_name" : "ec_template_constants.js",
+		"destination_name" : "/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"firebase_authcode" : "PtiomPGXrQI7r9Z1BKTrN01CsyzjbevTGIvjnLZG",
+			"decidz_app_root" : "https://decidz.com/app/#/",
+			"decidz_apirooturl" : "https://api.decidz.com",
+			"decidz_websiterooturl" : "https://decidz.com/",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "yellow",
+	"node_website_root" : "/var/www/decidz/scripts/node/ec/prod",
+	"description" : "prod EC",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+  "aq_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/activity-queue/",
+	"config_file" : {
+		"template_name" : "aq_template_constants.js",
+		"destination_name" : "/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"firebase_authcode" : "mrFjpvF3nawIhQTLGpQ5RTvfEQcdMIBAm372YCSa",
+			"decidz_app_root" : "http://int.decidz.com/app/#/",
+			"decidz_websiterooturl" : "http://int.decidz.com/",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development",
+			"googleapikey" : "AIzaSyBAUQMrk9SLpFV3wpMVcFPcvzKC0cuLQUQ"
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "purple",
+	"node_website_root" : "/var/www/decidz/scripts/node/aq/int",
+	"description" : "int AQ",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+  "aq_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/activity-queue/",
+	"config_file" : {
+		"template_name" : "aq_template_constants.js",
+		"destination_name" : "/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"firebase_authcode" : "d2eIS4pa3hsRQ7UGCsVHegVzX5NxV88SXEQABiwq",
+			"decidz_app_root" : "http://staging.decidz.com/app/#/",
+			"decidz_websiterooturl" : "http://staging.decidz.com/",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development",
+			"googleapikey" : "AIzaSyBAUQMrk9SLpFV3wpMVcFPcvzKC0cuLQUQ"
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "purple",
+	"node_website_root" : "/var/www/decidz/scripts/node/aq/staging",
+	"description" : "staging AQ",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+  "aq_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/activity-queue/",
+	"config_file" : {
+		"template_name" : "aq_template_constants.js",
+		"destination_name" : "/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"firebase_authcode" : "PtiomPGXrQI7r9Z1BKTrN01CsyzjbevTGIvjnLZG",
+			"decidz_app_root" : "https://decidz.com/app/#/",
+			"decidz_websiterooturl" : "https://decidz.com/",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production",
+			"googleapikey" : "AIzaSyDsASGJBB5Tbgc5Ha4KU_RC_dBWIB5m0s4"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "purple",
+	"node_website_root" : "/var/www/decidz/scripts/node/aq/prod",
+	"description" : "prod AQ",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+  "whatson_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/landing/",
+	"config_file" : {
+		"template_name" : "landing_template_constants.js",
+		"destination_name" : "/modules/constants.js",
+		"replacements" : {
+			"decidz_app_root" : "http://int.decidz.com/app/#/",
+			"decidz_websiterooturl" : "http://int.decidz.com/",
+			"decidz_apirooturl" : "http://api.int.decidz.com/",
+			"cookie_domain_name" : ".int.decidz.com",
+			"node_listen_port" : "3011",
+			"mongo_host" : "127.0.0.1",
+			"mongo_port" : "27017",
+			"mongo_db" : "LandingEventsInt",
+			"mongo_tablename" : "events",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodewebsite",
+	"deploy_button_colour" : "gray",
+	"node_website_root" : "/var/www/decidz/websites/node/landing/int",
+	"nginx_host_name" : "whatson.int.decidz.com",
+	"description" : "int whatson website",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "no"
+  },
+  "whatson_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/landing/",
+	"config_file" : {
+		"template_name" : "landing_template_constants.js",
+		"destination_name" : "/modules/constants.js",
+		"replacements" : {
+			"decidz_app_root" : "http://staging.decidz.com/app/#/",
+			"decidz_websiterooturl" : "http://staging.decidz.com/",
+			"decidz_apirooturl" : "http://api.staging.decidz.com/",
+			"cookie_domain_name" : ".staging.decidz.com",
+			"node_listen_port" : "3012",
+			"mongo_host" : "127.0.0.1",
+			"mongo_port" : "27017",
+			"mongo_db" : "LandingEventsStaging",
+			"mongo_tablename" : "events",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodewebsite",
+	"deploy_button_colour" : "gray",
+	"node_website_root" : "/var/www/decidz/websites/node/landing/staging",
+	"nginx_host_name" : "whatson.staging.decidz.com",
+	"description" : "staging whatson website",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "no"
+  },
+  "whatson_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/landing/",
+	"config_file" : {
+		"template_name" : "landing_template_constants.js",
+		"destination_name" : "/modules/constants.js",
+		"replacements" : {
+			"decidz_app_root" : "https://decidz.com/app/#/",
+			"decidz_websiterooturl" : "https://decidz.com/",
+			"decidz_apirooturl" : "https://api.decidz.com/",
+			"cookie_domain_name" : ".decidz.com",
+			"node_listen_port" : "3013",
+			"mongo_host" : "127.0.0.1",
+			"mongo_port" : "27017",
+			"mongo_db" : "LandingEventsProd",
+			"mongo_tablename" : "events",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production"			
+		}
+	},
+	"type" : "nodewebsite",
+	"deploy_button_colour" : "gray",
+	"node_website_root" : "/var/www/decidz/websites/node/landing/prod",
+	"nginx_host_name" : "whatson.decidz.com",
+	"description" : "prod whatson website",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "no"
+  },
+  "runq_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/refresh-userNoodle-queue/",
+	"config_file" : {
+		"template_name" : "refreshuserNoodlequeue_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"firebase_authcode" : "mrFjpvF3nawIhQTLGpQ5RTvfEQcdMIBAm372YCSa",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "green",
+	"node_website_root" : "/var/www/decidz/scripts/node/refreshuserNoodlequeue/int",
+	"description" : "int RUN queue",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+  "runq_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/refresh-userNoodle-queue/",
+	"config_file" : {
+		"template_name" : "refreshuserNoodlequeue_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"firebase_authcode" : "d2eIS4pa3hsRQ7UGCsVHegVzX5NxV88SXEQABiwq",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "green",
+	"node_website_root" : "/var/www/decidz/scripts/node/refreshuserNoodlequeue/staging",
+	"description" : "staging RUN queue",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+  "runq_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/refresh-userNoodle-queue/",
+	"config_file" : {
+		"template_name" : "refreshuserNoodlequeue_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"firebase_authcode" : "PtiomPGXrQI7r9Z1BKTrN01CsyzjbevTGIvjnLZG",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "green",
+	"node_website_root" : "/var/www/decidz/scripts/node/refreshuserNoodlequeue/prod",
+	"description" : "prod RUN queue",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+   "accountaccess_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/account-access/",
+	"config_file" : {
+		"template_name" : "accountaccess_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"firebase_authcode" : "mrFjpvF3nawIhQTLGpQ5RTvfEQcdMIBAm372YCSa",
+			"node_listen_port" : "3031",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "blue",
+	"node_website_root" : "/var/www/decidz/scripts/node/accountaccess/int",
+	"description" : "int accountaccess api",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+   "accountaccess_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/account-access/",
+	"config_file" : {
+		"template_name" : "accountaccess_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"firebase_authcode" : "d2eIS4pa3hsRQ7UGCsVHegVzX5NxV88SXEQABiwq",
+			"node_listen_port" : "3032",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "blue",
+	"node_website_root" : "/var/www/decidz/scripts/node/accountaccess/staging",
+	"description" : "staging accountaccess api",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+   "accountaccess_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/account-access/",
+	"config_file" : {
+		"template_name" : "accountaccess_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"firebase_authcode" : "PtiomPGXrQI7r9Z1BKTrN01CsyzjbevTGIvjnLZG",
+			"node_listen_port" : "3033",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production"
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "blue",
+	"node_website_root" : "/var/www/decidz/scripts/node/accountaccess/prod",
+	"description" : "prod accountaccess api",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+   "images_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/images/",
+	"config_file" : {
+		"template_name" : "images_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"firebase_authcode" : "mrFjpvF3nawIhQTLGpQ5RTvfEQcdMIBAm372YCSa",
+			"node_listen_port" : "3041",
+			"image_server_url" : "http://avatars.int.decidz.com/",
+			"upload_path" : "/var/www/decidz/websites/avatars/int",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "black",
+	"node_website_root" : "/var/www/decidz/scripts/node/images/int",
+	"description" : "int images api",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+   "images_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/images/",
+	"config_file" : {
+		"template_name" : "images_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"firebase_authcode" : "d2eIS4pa3hsRQ7UGCsVHegVzX5NxV88SXEQABiwq",
+			"node_listen_port" : "3042",
+			"image_server_url" : "http://avatars.staging.decidz.com/",
+			"upload_path" : "/var/www/decidz/websites/avatars/staging",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "black",
+	"node_website_root" : "/var/www/decidz/scripts/node/images/staging",
+	"description" : "staging images api",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+   "images_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/images/",
+	"config_file" : {
+		"template_name" : "images_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"firebase_authcode" : "PtiomPGXrQI7r9Z1BKTrN01CsyzjbevTGIvjnLZG",
+			"node_listen_port" : "3043",
+			"image_server_url" : "http://avatars.decidz.com/",
+			"upload_path" : "/var/www/decidz/websites/avatars/prod",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production"
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "black",
+	"node_website_root" : "/var/www/decidz/scripts/node/images/prod",
+	"description" : "prod images api",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+   "invite_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/invite-UserToNoodle/",
+	"config_file" : {
+		"template_name" : "inviteu2n_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"firebase_authcode" : "mrFjpvF3nawIhQTLGpQ5RTvfEQcdMIBAm372YCSa",
+			"decidz_apirooturl" : "http://api.int.decidz.com",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"			
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "gray",
+	"node_website_root" : "/var/www/decidz/scripts/node/inviteusertonoodle/int",
+	"description" : "int invite queue",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+   "invite_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/invite-UserToNoodle/",
+	"config_file" : {
+		"template_name" : "inviteu2n_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"firebase_authcode" : "d2eIS4pa3hsRQ7UGCsVHegVzX5NxV88SXEQABiwq",
+			"decidz_apirooturl" : "http://api.staging.decidz.com",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "gray",
+	"node_website_root" : "/var/www/decidz/scripts/node/inviteusertonoodle/staging",
+	"description" : "staging invite queue",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+   "invite_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/invite-UserToNoodle/",
+	"config_file" : {
+		"template_name" : "inviteu2n_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"firebase_authcode" : "PtiomPGXrQI7r9Z1BKTrN01CsyzjbevTGIvjnLZG",
+			"decidz_apirooturl" : "https://api.decidz.com",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production"
+		}
+	},
+	"type" : "nodescript",
+	"deploy_button_colour" : "gray",
+	"node_website_root" : "/var/www/decidz/scripts/node/inviteusertonoodle/prod",
+	"description" : "prod invite queue",
+	"main_worker_script" : "/worker.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes"
+  },
+  "replylite_int" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/reply-lite/",
+	"config_file" : {
+		"template_name" : "replylite_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"decidz_app_root" : "http://int.decidz.com/app/#/",
+			"decidz_websiterooturl" : "http://int.decidz.com/",
+			"decidz_apirooturl" : "http://api.int.decidz.com/",
+			"cookie_domain_name" : ".int.decidz.com",
+			"firebase_url" : "https://decidzint.firebaseio.com",
+			"firebase_authcode" : "mrFjpvF3nawIhQTLGpQ5RTvfEQcdMIBAm372YCSa",			
+			"node_listen_port" : "3051",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"
+		}
+	},
+	"type" : "nodewebsite",
+	"deploy_button_colour" : "blue",
+	"node_website_root" : "/var/www/decidz/websites/node/replylite/int",
+	"nginx_host_name" : "int.dcz.io",
+	"description" : "int dcz.io/replylite",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+  "replylite_staging" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "selectable",
+	"source_folder" : "/reply-lite/",
+	"config_file" : {
+		"template_name" : "replylite_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"decidz_app_root" : "http://staging.decidz.com/app/#/",
+			"decidz_websiterooturl" : "http://staging.decidz.com/",
+			"decidz_apirooturl" : "http://api.staging.decidz.com/",
+			"cookie_domain_name" : ".staging.decidz.com",
+			"firebase_url" : "https://decidzstaging.firebaseio.com",
+			"firebase_authcode" : "d2eIS4pa3hsRQ7UGCsVHegVzX5NxV88SXEQABiwq",
+			"node_listen_port" : "3052",
+			"logglydomain" : "decidzdev",
+			"logglytoken" : "671501a0-9ef1-4a30-b9e9-1c8131c9cebd",
+			"logglyenvironment" : "env-development"
+		}
+	},
+	"type" : "nodewebsite",
+	"deploy_button_colour" : "blue",
+	"node_website_root" : "/var/www/decidz/websites/node/replylite/staging",
+	"nginx_host_name" : "staging.dcz.io",
+	"description" : "staging dcz.io/replylite",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  },
+  "replylite_prod" : {
+    "gitrepo_remote_address" : "https://github.com/Decidz/decidz-node",
+	"gitrepo_local_folder" : "/var/www/decidz/gitrepo/decidz-node",
+	"gitrepo_branch" : "master",
+	"source_folder" : "/reply-lite/",
+	"config_file" : {
+		"template_name" : "replylite_template_constants.js",
+		"destination_name" : "/app/modules/constants.js",
+		"replacements" : {
+			"decidz_app_root" : "https://decidz.com/app/#/",
+			"decidz_websiterooturl" : "https://decidz.com/",
+			"decidz_apirooturl" : "https://api.decidz.com/",
+			"cookie_domain_name" : ".decidz.com",
+			"firebase_url" : "https://noodlesoup.firebaseio.com",
+			"firebase_authcode" : "PtiomPGXrQI7r9Z1BKTrN01CsyzjbevTGIvjnLZG",
+			"node_listen_port" : "3053",
+			"logglydomain" : "decidz",
+			"logglytoken" : "e472934b-cc6f-4bd2-a7ba-14252b12daf6",
+			"logglyenvironment" : "env-production"
+		}
+	},
+	"type" : "nodewebsite",
+	"deploy_button_colour" : "blue",
+	"node_website_root" : "/var/www/decidz/websites/node/replylite/prod",
+	"nginx_host_name" : "dcz.io",
+	"description" : "prod dcz.io/replylite",
+	"main_worker_script" : "/server.js",
+	"npm_install_folder" : "/",
+	"start_node_server_at_reboot" : "yes",
+	"enabled" : "yes"
+  }  
+  
+}
